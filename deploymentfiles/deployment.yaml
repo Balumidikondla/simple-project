@@ -15,7 +15,8 @@ spec:
     spec:
       containers:
         - name: simple-app
-          image: httpd:latest
+          image: balumidikondla/myapp
+
           ports:
             - containerPort: 80
 
